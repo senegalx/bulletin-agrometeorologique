@@ -1,0 +1,21 @@
+ {
+	"skipLink.label": "Passer au contenu",
+	"search.label": "Recherche",
+	"search.shortcutLabel": "(Appuyez sur / pour rechercher)",
+	"search.cancelLabel": "Annuler",
+	"search.devWarning": "La recherche est uniquement disponible dans les versions de production. \nEssayez de construire et de prévisualiser le site pour le tester en local.",
+	"themeSelect.accessibleLabel": "Sélectionner le thème",
+	"themeSelect.dark": "Sombre",
+	"themeSelect.light": "Clair",
+	"themeSelect.auto": "Automatique",
+	"languageSelect.accessibleLabel": "Sélectionner la langue",
+	"menuButton.accessibleLabel": "Menu",
+	"sidebarNav.accessibleLabel": "Principal",
+	"tableOfContents.onThisPage": "Sur cette page",
+	"tableOfContents.overview": "Aperçu",
+	"i18n.untranslatedContent": "Ce contenu n'est pas encore disponible dans votre langue.",
+	"page.editLink": "Modifier la page",
+	"page.lastUpdated": "Dernière mise à jour :",
+	"page.previousLink": "Précédent",
+	"page.nextLink": "Suivant"
+}
