@@ -5,21 +5,26 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Bulletin Agrométéorologique',
+			logo: {
+				src: './src/assets/logo.png',
+			},
+			locales: {
+				root: {
+					label: 'Français',
+					lang: 'fr',
+				},
+			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'À propos', link: '/a-propos/'
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '2023',
+					autogenerate: { directory: '2023' },
 				},
 			],
 		}),
