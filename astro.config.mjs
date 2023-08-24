@@ -6,6 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Bulletin Agrométéorologique',
+			favicon: '/images/favicon.ico',
 			logo: {
 				src: './src/assets/logo.png',
 			},
@@ -25,6 +26,18 @@ export default defineConfig({
 				{
 					label: '2023',
 					autogenerate: { directory: '2023' },
+				},
+				{
+					label: '2022',
+					autogenerate: { directory: '2022' },
+				},
+				{
+					label: '2021',
+					autogenerate: { directory: '2021' },
+				},
+				{
+					label: '2020',
+					autogenerate: { directory: '2020' },
 				},
 			],
 		}),
